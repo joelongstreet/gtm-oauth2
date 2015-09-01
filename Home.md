@@ -46,8 +46,8 @@ The source files required are:
 | GTMOAuth2Authentication.h/m GTMOAuth2SignIn.h/m GTMHTTPFetcher.h/m | GTMOAuth2ViewControllerTouch.h/m GTMOAuth2ViewTouch.xib | GTMHTTPFetchHistory.h/m GTMOAuth2WindowController.h/m GTMOAuth2Window.xib |
 
 Add the
-[standard frameworks](https://developer.apple.com/library/ios/#recipes/xcode_help-project_editor/Articles/AddingaLibrarytoaTarget.html')
-`Security.framework` and `SystemConfiguration.framework` to your project.
+[standard frameworks](https://developer.apple.com/library/ios/#recipes/xcode_help-project_editor/Articles/AddingaLibrarytoaTarget.html)
+`Security.framework`, `SystemConfiguration.framework`, and `Webkit.framework` to your project.
 
 When linking against a static library build of the controller, specify the
 [-ObjC build option](http://developer.apple.com/mac/library/qa/qa2006/qa1490.html')
